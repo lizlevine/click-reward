@@ -1,3 +1,5 @@
+// line 9 grabs the app - this file came pre-installed
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
