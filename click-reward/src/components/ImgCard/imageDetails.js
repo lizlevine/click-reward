@@ -4,7 +4,8 @@ export default {
       id: "0",
       altTxt: "Beagle",
       image: "./image/gracie.jpg"
-      // image: 'https://c402277.ssl.cf1.rackcdn.com/photos/1257/images/hero_small/SeaTurtle-1600x600px.jpg?1345590072'
+      //   image:
+      //     "https://c402277.ssl.cf1.rackcdn.com/photos/1257/images/hero_small/SeaTurtle-1600x600px.jpg?1345590072"
     },
     {
       id: "1",

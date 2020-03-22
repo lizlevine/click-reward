@@ -8,6 +8,8 @@ import Footer from "./components/Footer/Footer";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import GameContainer from "./components/GameContainer/GameContainer";
 import ImgCard from "./components/ImgCard/ImgCard";
+import allImages from "./components/ImgCard/imageDetails";
+import imageDetails from "./components/ImgCard/imageDetails";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Jumbotron />
       <GameContainer />
       <ImgCard />
+      <allImages />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

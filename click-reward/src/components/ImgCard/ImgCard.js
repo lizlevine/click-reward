@@ -3,8 +3,11 @@ import "./style.css";
 
 function ImgCard() {
   return (
-    <div class="card">
-      <div class="card-body">This is some text within a card body.</div>
+    <div className="card">
+      <img href />
+      <a href="#" class="card-link">
+        dog goes here
+      </a>
     </div>
   );
 }
