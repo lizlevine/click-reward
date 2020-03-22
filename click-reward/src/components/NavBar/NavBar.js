@@ -4,8 +4,8 @@ import "./style.css";
 function NavBar() {
   return (
     <div>
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand" href="#">
           Click | Reward
         </a>
       </nav>

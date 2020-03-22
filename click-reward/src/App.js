@@ -1,4 +1,4 @@
-// all components get imported into this file - houses everything
+// all components get imported into this file - wraps it all together
 
 import React from "react";
 import logo from "./logo.svg";
@@ -6,12 +6,14 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
+import GameContainer from "./components/GameContainer/GameContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <NavBar />
       <Jumbotron />
+      <GameContainer />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
