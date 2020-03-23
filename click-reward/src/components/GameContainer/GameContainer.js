@@ -7,13 +7,13 @@ function GameContainer() {
 <div className="container">
   <div className="row">
     <div className="col-sm">
-      One of three columns
+      Adorable Beagle learning to sit
     </div>
     <div className="col-sm">
-      One of three columns
+     German Shepherd mix learing to stay
     </div>
     <div className="col-sm">
-      One of three columns
+      Retriever learning to heel
     </div>
   </div>
 </div>

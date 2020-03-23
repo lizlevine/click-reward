@@ -10,14 +10,28 @@ import GameContainer from "./components/GameContainer/GameContainer";
 import ImgCard from "./components/ImgCard/ImgCard";
 import allImages from "./components/ImgCard/imageDetails";
 import imageDetails from "./components/ImgCard/imageDetails";
+import Flex from "./components/Flex/Flex";
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <NavBar />
       <Jumbotron />
       <GameContainer />
+      <flex />
       <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <ImgCard />
+      <flex />
       <allImages />
 
       {/* <header className="App-header">
