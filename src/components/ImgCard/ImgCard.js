@@ -9,10 +9,10 @@ function ImgCard(props) {
       <div className="card-body">
         <h5 className="card-title">Beagle learning to sit</h5>
         <p className="card-text">
-          This compact scent hound is driven by smell and often difficult to
-          train.
+          {/* This compact scent hound is driven by smell and often difficult to
+          train. */}
         </p>
-        <div class="button">
+        <div className="button">
           <a href="#test" className="btn btn-primary">
             click | reward
           </a>
