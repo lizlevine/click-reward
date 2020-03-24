@@ -3,13 +3,11 @@ import "./style.css";
 
 function Footer() {
   return (
-
     <div>
       <footer className="text-muted">
         <div className="footer">
-          <p>
+          <p className="thanks">
             <a href="#">Thanks for playing Click | Reward!</a>
-           
           </p>
         </div>
       </footer>

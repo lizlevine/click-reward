@@ -1,7 +1,12 @@
 .footer {
-  background-color: palegoldenrod;
+  background-color: lightgrey;
+
   width: 100%;
-  height: 50px;
+  height: 30px;
   padding: 40px 0 40px 0;
-  text-align: center
+  text-align: center;
 }
+
+/* .thanks {
+    color: firebrick;
+} */

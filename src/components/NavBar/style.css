@@ -1,3 +1,13 @@
 .navbar-brand {
   margin-left: 45px;
 }
+
+.navbar {
+  height: 80px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

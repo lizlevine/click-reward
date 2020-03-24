@@ -5,13 +5,13 @@ export default {
       altTxt: "Beagle",
       image: "./image/gracie.jpg"
       //   image:
-      //     "https://c402277.ssl.cf1.rackcdn.com/photos/1257/images/hero_small/SeaTurtle-1600x600px.jpg?1345590072"
+      //     "https://"
     },
     {
       id: "1",
       altTxt: "Coon Hound",
       image: "images/coonHound.jpg"
-      // image: 'https://focusingonwildlife.com/news/wp-content/uploads/grizzly-bear-family-wallpaper.jpg'
+      // image: "https://"
     },
     {
       id: "2",

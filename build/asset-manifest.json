@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/click-reward/static/css/main.5dae0b21.chunk.css",
-    "main.js": "/click-reward/static/js/main.738a0a72.chunk.js",
-    "main.js.map": "/click-reward/static/js/main.738a0a72.chunk.js.map",
+    "main.css": "/click-reward/static/css/main.8f9a3a61.chunk.css",
+    "main.js": "/click-reward/static/js/main.c55d4a99.chunk.js",
+    "main.js.map": "/click-reward/static/js/main.c55d4a99.chunk.js.map",
     "runtime-main.js": "/click-reward/static/js/runtime-main.e8a6695d.js",
     "runtime-main.js.map": "/click-reward/static/js/runtime-main.e8a6695d.js.map",
     "static/js/2.910c2fd3.chunk.js": "/click-reward/static/js/2.910c2fd3.chunk.js",
     "static/js/2.910c2fd3.chunk.js.map": "/click-reward/static/js/2.910c2fd3.chunk.js.map",
     "index.html": "/click-reward/index.html",
-    "precache-manifest.f6ac93a9bf8fc51240ef1dcc866e30a5.js": "/click-reward/precache-manifest.f6ac93a9bf8fc51240ef1dcc866e30a5.js",
+    "precache-manifest.1db7d0ba7ef4dfce3f99e4da9cf9aed2.js": "/click-reward/precache-manifest.1db7d0ba7ef4dfce3f99e4da9cf9aed2.js",
     "service-worker.js": "/click-reward/service-worker.js",
-    "static/css/main.5dae0b21.chunk.css.map": "/click-reward/static/css/main.5dae0b21.chunk.css.map",
-    "static/js/2.910c2fd3.chunk.js.LICENSE.txt": "/click-reward/static/js/2.910c2fd3.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/click-reward/static/media/logo.5d5d9eef.svg"
+    "static/css/main.8f9a3a61.chunk.css.map": "/click-reward/static/css/main.8f9a3a61.chunk.css.map",
+    "static/js/2.910c2fd3.chunk.js.LICENSE.txt": "/click-reward/static/js/2.910c2fd3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8a6695d.js",
     "static/js/2.910c2fd3.chunk.js",
-    "static/css/main.5dae0b21.chunk.css",
-    "static/js/main.738a0a72.chunk.js"
+    "static/css/main.8f9a3a61.chunk.css",
+    "static/js/main.c55d4a99.chunk.js"
   ]
 }

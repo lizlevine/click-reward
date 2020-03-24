@@ -4,7 +4,7 @@ import "./style.css";
 function Jumbotron() {
   return (
     <div className="jumbotron jumbotron-fluid">
-      <div className="container">
+      <div className="jumbo">
         <h1 className="display-4">Clicker Training Game</h1>
         <p className="lead">
           The clicker method of training is a tried, true and fun method of teaching your dog

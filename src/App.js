@@ -26,12 +26,12 @@ function App() {
         <ImgCard />
         <ImgCard />
         <ImgCard />
-        {/* <ImgCard />
         <ImgCard />
         <ImgCard />
         <ImgCard />
         <ImgCard />
-        <ImgCard /> */}
+        <ImgCard />
+        <ImgCard />
         {/* <allImages /> */}
       </Flex>
       <Flex />
