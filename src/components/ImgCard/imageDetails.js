@@ -3,15 +3,16 @@ export default {
     {
       id: "0",
       altTxt: "Beagle",
-      image: "./ImgCard/images/gracie.jpg"
-      //   image:
-      //     "https://"
+      // image: "./ImgCard/images/gracie.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTDv7HmAFmtg7ny0MasxUTi5KI-xJib1pSWL_ymfNjtQVZeaIDr"
     },
     {
       id: "1",
       altTxt: "Coon Hound",
-      image: "images/coonHound.jpg"
-      // image: "https://"
+      // image: "images/coonHound.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTT_5_4bRV6KFLrVgf25kQzAnqmDaR1lFAMeEC9sEg-W-kLl_gk"
     },
     {
       id: "2",
@@ -24,55 +25,65 @@ export default {
       id: "3",
       altTxt: "Rhodesian Ridgeback",
       // image: "./images/ridgeback.jpg"
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW'
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW"
     },
     {
       id: "4",
       altTxt: "Shiba Enu",
-      image: "./images/shiba.jpg"
-      // image: 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/wlds43_654640_2400.jpg?itok=LbhnLIk9'
+      // image: "./images/shiba.jpg"
+
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRpgPVICvYnc7uRiGkQKv-U4g3mNhdfXzCyrFeyYdG1b8_Ohlrx"
     },
     {
       id: "5",
       altTxt: "dog with thought bubble",
       // image: "./images/silly.jpg"
-      // image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW'
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShu-0gTVHy-5g2iLuWD9rjjDHvVEwxV_T-tiP9REtcA1FH-jaT "
     },
     {
       id: "6",
       altTxt: "Beagle",
-      image: "./images/gracie_2.jpg"
-      // image: 'https://media.greenmatters.com/brand-img/06ZmYhDZp/0x0/masai-giraffe-extinction-1563306007202.jpg'
+      // image: "./images/gracie_2.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRS57unonbTkloVcfOeiV1y5O7YU8awPwvcCGraJXbcB-BXQz6L"
     },
     {
       id: "7",
       altTxt: "talking dog",
-      image: "./images/clickTreat.jpg"
-      // image: 'http://advocacy.britannica.com/blog/advocacy/wp-content/uploads/132325-131-40560F7E.jpg'
+      // image: "./images/clickTreat.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT8350Z2XSX5JxhSXyAWrhwziVmh9DnM6YnWM9Zbjz3Xj1G2sK"
     },
     {
       id: "8",
       altTxt: "Shepherd pup",
-      image: "./images/major.jpg"
-      // image: 'https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/ocelot.bmp?crop=0,88,1024,563&wid=4000&hei=2200&scl=0.256'
+      // image: "./images/major.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjSxxr2nF-_YTWlJP9YGiHRdPxgviwaFnfgDwR35p_PJRjDHXs"
     },
     {
       id: "9",
       altTxt: "Basenji",
-      image: "./images/basenji.jpg"
-      // image: 'https://static.scientificamerican.com/blogs/cache/file/65367319-B08B-4C77-8A2F42A5E05C8B53_source.jpg?w=590&h=800&D6D8E7BF-D19C-4E8C-90079A9237B3FE79'
+      // image: "./images/basenji.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-kG8GR5G7Ck0_VUW5WxLT33YDcw4TDJZmdPZshO1qdnk9vKYx"
     },
     {
       id: "10",
       altTxt: "Bernese Mountain pup",
-      image: "./images/zoe.jpg"
-      // image: 'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492109387/articles/2016/09/07/what-happens-when-animals-get-off-the-endangered-list/160907-slattery-animals-off-endangered-list-tease_jlrsul'
+      // image: "./images/zoe.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7-trRfIvO_wrAmSVpV_sH0KHwOIFTyhMhu9VGEjqgp_vXSycc"
     },
     {
       id: "11",
       altTxt: "Aussie Shepherd Mix",
-      image: "./images/maisy.jpg"
-      // image: 'https://animalogic.ca/wp-content/uploads/2018/12/1024px-Eisba%CC%88r_1996-07-23.jpg'
+      // image: "./images/maisy.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsPx0A2C5QAcN9wKJ6OEc_zKJ-8LUedCgewzcdc9qH2mIP9VJB"
     }
   ]
 };
