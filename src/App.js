@@ -1,38 +1,40 @@
 // all components get imported into this file - wraps it all together
 
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+// import logo from "./logo.svg";
+// import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
-import GameContainer from "./components/GameContainer/GameContainer";
+// import GameContainer from "./components/GameContainer/GameContainer";
 import ImgCard from "./components/ImgCard/ImgCard";
-import allImages from "./components/ImgCard/imageDetails";
-import imageDetails from "./components/ImgCard/imageDetails";
 import Flex from "./components/Flex/Flex";
+// import allImages from "./components/ImgCard/imageDetails";
+// import imageDetails from "./components/ImgCard/imageDetails";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Jumbotron />
-      <GameContainer />
-      <flex />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <ImgCard />
-      <flex />
-      <allImages />
+      {/* <GameContainer /> */}
+      {/* <allImages /> */}
+      <Flex>
+        <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        {/* <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        <ImgCard />
+        <ImgCard /> */}
+        {/* <allImages /> */}
+      </Flex>
+      <Flex />
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

@@ -6,7 +6,7 @@ function Footer() {
 
     <div>
       <footer className="text-muted">
-        <div className="container">
+        <div className="footer">
           <p>
             <a href="#">Thanks for playing Click | Reward!</a>
            
