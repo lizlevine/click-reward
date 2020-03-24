@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "261d2c4092bd7ba92fc333cdcc214922",
+    "revision": "65c53a5d66253f1be4e5607b1713d579",
     "url": "/click-reward/index.html"
   },
   {
-    "revision": "7824b79713c00678419e",
-    "url": "/click-reward/static/css/main.5dae0b21.chunk.css"
+    "revision": "8f82ddceea1254ded975",
+    "url": "/click-reward/static/css/main.8f9a3a61.chunk.css"
   },
   {
     "revision": "f9ee0b5e71839b826961",
@@ -16,15 +16,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/click-reward/static/js/2.910c2fd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7824b79713c00678419e",
-    "url": "/click-reward/static/js/main.738a0a72.chunk.js"
+    "revision": "8f82ddceea1254ded975",
+    "url": "/click-reward/static/js/main.c55d4a99.chunk.js"
   },
   {
     "revision": "e378ebc705f06235078c",
     "url": "/click-reward/static/js/runtime-main.e8a6695d.js"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/click-reward/static/media/logo.5d5d9eef.svg"
   }
 ]);
