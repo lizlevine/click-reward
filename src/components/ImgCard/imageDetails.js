@@ -3,7 +3,7 @@ export default {
     {
       id: "0",
       altTxt: "Beagle",
-      image: "./image/gracie.jpg"
+      image: "./ImgCard/images/gracie.jpg"
       //   image:
       //     "https://"
     },
@@ -16,26 +16,27 @@ export default {
     {
       id: "2",
       altTxt: "Cardigan Welsh Corgie",
-      image: "./images/corgy.jpg"
-      // image: 'http://4.bp.blogspot.com/-K9IABSDmxu4/VfzqUs9gVjI/AAAAAAAAA4I/UZeMPjpSe6w/s1600/endangered%2Bcheetah.jpg'
+      // image: "./images/corgy.jpg"
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKX05zhcMC-OZM2qScw-QRxFMp4us3zpfku-mEShChwVVVMWsT"
     },
     {
       id: "3",
       altTxt: "Rhodesian Ridgeback",
-      image: "./images/ridgeback.jpg"
-      // image: 'https://d3i6fh83elv35t.cloudfront.net/static/2017/08/baldeagle-1024x645.jpg'
+      // image: "./images/ridgeback.jpg"
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW'
     },
     {
       id: "4",
       altTxt: "Shiba Enu",
-      image: "./image/shiba.jpg"
+      image: "./images/shiba.jpg"
       // image: 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/wlds43_654640_2400.jpg?itok=LbhnLIk9'
     },
     {
       id: "5",
       altTxt: "dog with thought bubble",
-      image: "./images/silly.jpg"
-      // image: 'https://cdn.vox-cdn.com/thumbor/Ndn73qyjkLmb4ocWrRg2YPFQVz4=/0x0:6000x4000/1200x800/filters:focal(4437x534:5397x1494)/cdn.vox-cdn.com/uploads/chorus_image/image/62369619/26003376186_7833972fd3_o.0.jpg'
+      // image: "./images/silly.jpg"
+      // image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW'
     },
     {
       id: "6",

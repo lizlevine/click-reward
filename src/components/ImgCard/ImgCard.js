@@ -1,14 +1,11 @@
 import React from "react";
 import "./style.css";
 
-function ImgCard() {
+function ImgCard(props) {
+  console.log(props.src);
   return (
     <div className="card" style={{ width: "18rem" }}>
-      <img
-        src="https://via.placeholder.com/150"
-        class="card-img-top"
-        alt="..."
-      />
+      <img src={props.src} className="card-img-top" alt={props.altTxt} />
       <div className="card-body">
         <h5 className="card-title">Beagle learning to sit</h5>
         <p className="card-text">

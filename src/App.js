@@ -10,7 +10,7 @@ import Jumbotron from "./components/Jumbotron/Jumbotron";
 import ImgCard from "./components/ImgCard/ImgCard";
 import Flex from "./components/Flex/Flex";
 // import allImages from "./components/ImgCard/imageDetails";
-// import imageDetails from "./components/ImgCard/imageDetails";
+import imageDetails from "./components/ImgCard/imageDetails";
 
 function App() {
   return (
@@ -20,19 +20,9 @@ function App() {
       {/* <GameContainer /> */}
       {/* <allImages /> */}
       <Flex>
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        <ImgCard />
-        {/* <allImages /> */}
+        {imageDetails.allImages.map(img => {
+          return <ImgCard altTxt={img.altTxt} src={img.image} key={img.id} />;
+        })}
       </Flex>
       <Flex />
 
