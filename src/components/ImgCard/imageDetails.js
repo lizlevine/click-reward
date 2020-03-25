@@ -26,7 +26,7 @@ export default {
       altTxt: "Rhodesian Ridgeback",
       // image: "./images/ridgeback.jpg"
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShu-0gTVHy-5g2iLuWD9rjjDHvVEwxV_T-tiP9REtcA1FH-jaT "
     },
     {
       id: "4",
@@ -41,21 +41,21 @@ export default {
       altTxt: "dog with thought bubble",
       // image: "./images/silly.jpg"
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShu-0gTVHy-5g2iLuWD9rjjDHvVEwxV_T-tiP9REtcA1FH-jaT "
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_KlSsgfOdFymiGimfUy1A_APluD1SS8-LsrZMD_A1VofXn8cW"
     },
     {
       id: "6",
       altTxt: "Beagle",
       // image: "./images/gracie_2.jpg"
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRS57unonbTkloVcfOeiV1y5O7YU8awPwvcCGraJXbcB-BXQz6L"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT8350Z2XSX5JxhSXyAWrhwziVmh9DnM6YnWM9Zbjz3Xj1G2sK"
     },
     {
       id: "7",
       altTxt: "talking dog",
       // image: "./images/clickTreat.jpg"
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT8350Z2XSX5JxhSXyAWrhwziVmh9DnM6YnWM9Zbjz3Xj1G2sK"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRS57unonbTkloVcfOeiV1y5O7YU8awPwvcCGraJXbcB-BXQz6L"
     },
     {
       id: "8",
