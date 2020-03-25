@@ -1,5 +1,6 @@
 .navbar-brand {
   margin-left: 45px;
+  font-size: 25px;
 }
 
 .navbar {
@@ -14,7 +15,7 @@
 }
 
 .score {
-  margin-left: 800px;
+  margin-right: 30px;
 }
 
 .high-score {

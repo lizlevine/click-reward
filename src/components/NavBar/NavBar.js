@@ -8,8 +8,10 @@ function NavBar(props) {
         <a className="navbar-brand" href="#">
           Click | Reward
         </a>
-        <span className="score">Your Points: {props.yourPoints} </span>
-        <span className="high-score">High Score: {props.highScore}</span>
+        <div>
+          <span className="score">Your Points: {props.yourPoints}</span>
+          <span className="high-score">High Score: {props.highScore}</span>
+        </div>
       </nav>
     </div>
   );
