@@ -12,3 +12,11 @@
   top: 0;
   width: 100%;
 }
+
+.score {
+  margin-left: 800px;
+}
+
+.high-score {
+  margin-right: 50px;
+}

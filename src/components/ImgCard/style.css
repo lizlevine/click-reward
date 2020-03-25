@@ -7,14 +7,21 @@
   /* margin-right: 30px;
   margin-bottom: 30px; */
   margin: 0 30px 20px 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
-.btn-primary:visited,
+/* .btn-primary:visited, */
 .btn-primary:focus {
   background-color: #8064a2;
   border: 2px solid #f2dfdf;
   text-align: center;
+  align-items: center; 
+}
+
+.btn-primary:hover {
+  transform: scale(1.25);
 }
