@@ -12,38 +12,51 @@ import Flex from "./components/Flex/Flex";
 // import allImages from "./components/ImgCard/imageDetails";
 import imageDetails from "./components/ImgCard/imageDetails";
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Jumbotron />
-      {/* <GameContainer /> */}
-      {/* <allImages /> */}
-      <Flex>
-        {imageDetails.allImages.map(img => {
-          return <ImgCard altTxt={img.altTxt} src={img.image} key={img.id} />;
-        })}
-      </Flex>
-      <Flex />
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      yourPoints: 0,
+      highScore: 0,
+      clickedIds: []
+    };
+  }
+  // this function will update the state in the parent "App"
+  handleClick(id) {
+    this.setState({ yourPoints: this.state.yourPoints + 1 });
+    // this will pull everything in the array- the clicked pics and add them all into a new array
+    this.setState({ clickedIds: [...this.state.clickedIds, id] });
+  }
 
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+  render() {
+    return (
+      <div className="App">
+        <NavBar
+          yourPoints={this.state.yourPoints}
+          highScore={this.state.highScore}
+        />
+        <Jumbotron />
+        {/* <GameContainer /> */}
+        {/* <allImages /> */}
+        <Flex>
+          {imageDetails.allImages.map(img => {
+            return (
+              <ImgCard
+                altTxt={img.altTxt}
+                id={img.id}
+                src={img.image}
+                key={img.id}
+                handleClick={() => this.handleClick()}
+              />
+            );
+          })}
+        </Flex>
+        <Flex />
 
-      <Footer />
-    </div>
-  );
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

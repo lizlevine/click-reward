@@ -2,3 +2,7 @@
   text-align: center;
   padding-top: 70px;
 }
+
+.jumbotron-fluid {
+  border: 2px solid #f2dfdf;
+}
