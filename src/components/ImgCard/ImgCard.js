@@ -12,7 +12,7 @@ function ImgCard(props) {
           {/* This compact scent hound is driven by smell and often difficult to
           train. */}
         </p>
-        <div className="button" onClick={(id)=> props.handleClick(id)}>
+        <div className="button" onClick={()=> props.handleClick(props.id)}>
           <a href="#test" className="btn btn-primary">
             click | reward
           </a>
