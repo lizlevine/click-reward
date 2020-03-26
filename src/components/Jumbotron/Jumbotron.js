@@ -7,10 +7,10 @@ function Jumbotron() {
       <div className="jumbo">
         <h1 className="display-4">Clicker Training Game</h1>
         <p className="lead">
-          The clicker method of training is a tried, true and fun method of teaching your dog
-          good social behavior. Click on any dog to begin. <br>
-          </br>
-          (But each dog only gets one click|reward per game!)
+          The clicker method of training is a tried, true and fun method of
+          teaching your dog good social behavior. Click on any dog to begin.{" "}
+          <br></br>
+          (But each dog only gets one CLICK | REWARD per game!)
         </p>
       </div>
     </div>
