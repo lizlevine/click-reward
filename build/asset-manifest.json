@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/click-reward/static/css/main.1031a65d.chunk.css",
-    "main.js": "/click-reward/static/js/main.f91cf31b.chunk.js",
-    "main.js.map": "/click-reward/static/js/main.f91cf31b.chunk.js.map",
+    "main.js": "/click-reward/static/js/main.96c3b710.chunk.js",
+    "main.js.map": "/click-reward/static/js/main.96c3b710.chunk.js.map",
     "runtime-main.js": "/click-reward/static/js/runtime-main.e8a6695d.js",
     "runtime-main.js.map": "/click-reward/static/js/runtime-main.e8a6695d.js.map",
     "static/js/2.7186b7df.chunk.js": "/click-reward/static/js/2.7186b7df.chunk.js",
     "static/js/2.7186b7df.chunk.js.map": "/click-reward/static/js/2.7186b7df.chunk.js.map",
     "index.html": "/click-reward/index.html",
-    "precache-manifest.cc0e643bebcbe2f648a9c2e1fe5cec25.js": "/click-reward/precache-manifest.cc0e643bebcbe2f648a9c2e1fe5cec25.js",
+    "precache-manifest.7392ac908813184b3beac071cad3cf00.js": "/click-reward/precache-manifest.7392ac908813184b3beac071cad3cf00.js",
     "service-worker.js": "/click-reward/service-worker.js",
     "static/css/main.1031a65d.chunk.css.map": "/click-reward/static/css/main.1031a65d.chunk.css.map",
     "static/js/2.7186b7df.chunk.js.LICENSE.txt": "/click-reward/static/js/2.7186b7df.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e8a6695d.js",
     "static/js/2.7186b7df.chunk.js",
     "static/css/main.1031a65d.chunk.css",
-    "static/js/main.f91cf31b.chunk.js"
+    "static/js/main.96c3b710.chunk.js"
   ]
 }

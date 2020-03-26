@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79759ee09eacf4e47713bbc31c2c0770",
+    "revision": "69767675f4f6cb13960b60bac2490d0d",
     "url": "/click-reward/index.html"
   },
   {
-    "revision": "65867eee903268ba7b83",
+    "revision": "4baef4e7237c67639376",
     "url": "/click-reward/static/css/main.1031a65d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/click-reward/static/js/2.7186b7df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65867eee903268ba7b83",
-    "url": "/click-reward/static/js/main.f91cf31b.chunk.js"
+    "revision": "4baef4e7237c67639376",
+    "url": "/click-reward/static/js/main.96c3b710.chunk.js"
   },
   {
     "revision": "e378ebc705f06235078c",
