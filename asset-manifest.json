@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/click-reward/static/css/main.3ca975f1.chunk.css",
+    "main.css": "/click-reward/static/css/main.8b623d25.chunk.css",
     "main.js": "/click-reward/static/js/main.d1e08afe.chunk.js",
     "main.js.map": "/click-reward/static/js/main.d1e08afe.chunk.js.map",
     "runtime-main.js": "/click-reward/static/js/runtime-main.e8a6695d.js",
@@ -8,15 +8,15 @@
     "static/js/2.7186b7df.chunk.js": "/click-reward/static/js/2.7186b7df.chunk.js",
     "static/js/2.7186b7df.chunk.js.map": "/click-reward/static/js/2.7186b7df.chunk.js.map",
     "index.html": "/click-reward/index.html",
-    "precache-manifest.fbe56c8343aee65eb2537315559f2d85.js": "/click-reward/precache-manifest.fbe56c8343aee65eb2537315559f2d85.js",
+    "precache-manifest.64c627951778760ba1d3a54971a3fd0f.js": "/click-reward/precache-manifest.64c627951778760ba1d3a54971a3fd0f.js",
     "service-worker.js": "/click-reward/service-worker.js",
-    "static/css/main.3ca975f1.chunk.css.map": "/click-reward/static/css/main.3ca975f1.chunk.css.map",
+    "static/css/main.8b623d25.chunk.css.map": "/click-reward/static/css/main.8b623d25.chunk.css.map",
     "static/js/2.7186b7df.chunk.js.LICENSE.txt": "/click-reward/static/js/2.7186b7df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8a6695d.js",
     "static/js/2.7186b7df.chunk.js",
-    "static/css/main.3ca975f1.chunk.css",
+    "static/css/main.8b623d25.chunk.css",
     "static/js/main.d1e08afe.chunk.js"
   ]
 }
