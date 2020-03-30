@@ -1,6 +1,31 @@
+# CLICK | REWARD
+
+This fun, interactive memory game begins by prompting the user to select dogs
+to "reward" by clicking. The points accumulate as long as the user does not reward the same dog twice. This is not always easy as upon click the cards shuffle. If the user selects the same dog twice, the game ends and the high score will either remain as is or increment by one.
+
+## Technology Used:
+
+- React.js (leveraged using [Create React App])
+- JavaScript
+- Bootstrap CDN
+
+Deployed using Github pages
+
+##### User Prompted to Start, scores 0
+
+![](src/components/ImgCard/images/click_start.png)
+
+##### User Wins, display message updated on-click, scores updates
+
+![](src/components/ImgCard/images/click_won.png)
+
+##### User Loses, display message updated on-click, scores updates
+
+![](src/components/ImgCard/images/click_lost.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- ## Available Scripts
 
 In the project directory, you can run:
 
@@ -65,4 +90,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
