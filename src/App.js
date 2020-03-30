@@ -1,8 +1,6 @@
 // all components get imported into this file - wraps it all together
 
 import React from "react";
-// import logo from "./logo.svg";
-// import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
@@ -29,7 +27,7 @@ class App extends React.Component {
     debugger;
     console.log(this.state.clickedIds);
     console.log(id);
-    // can use if else to see if user pressed same one twice
+    // can use if else to see if user pressed same dog twice
     if (this.state.clickedIds.includes(id)) {
       this.setState({
         clickResponse: "Sorry, game over! Only one treat per game!"
@@ -56,7 +54,7 @@ class App extends React.Component {
     let newDeck = this.shuffleCards(this.state.cardsArray);
     this.setState({ cardsArray: newDeck });
 
-    // this.setState({ clickResponse:clickResponse });
+    // this.setState({ clickResponse:clickResponse }); this way of expressing required var def
   }
 
   // reset yourPoints to "0" alert user, chose twice, reset clicked id's
