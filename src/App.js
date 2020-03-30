@@ -20,8 +20,7 @@ class App extends React.Component {
       highScore: 0,
       clickedIds: [],
       cardsArray: imageDetails.allImages,
-      clickResponse:
-        "Choose any pup to begin, each dog gets only one treat per game!"
+      clickResponse: "Click any pup to begin — but only one treat per game!"
     };
   }
 
@@ -41,7 +40,7 @@ class App extends React.Component {
 
     this.setState(prevState => ({
       yourPoints: prevState.yourPoints + 1,
-      clickResponse: "Great job! Try to beat your best score!"
+      clickResponse: "Great job! Keep on treating new pups!"
     }));
 
     this.setState((prevState, props) => ({

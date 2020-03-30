@@ -22,3 +22,10 @@
 .high-score {
   margin-right: 40px;
 }
+
+.clickResponse {
+  margin-right: 120px;
+  padding-right: 200px;
+  color: darkorchid;
+  font-size: 20px;
+}
