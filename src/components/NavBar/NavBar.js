@@ -9,6 +9,7 @@ function NavBar(props) {
           Click | Reward
         </a>
         <div>
+          <span className="clickResponse">{props.clickResponse}</span>
           <span className="score">Your Points: {props.yourPoints}</span>
           <span className="high-score">High Score: {props.highScore}</span>
         </div>

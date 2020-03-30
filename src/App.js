@@ -19,22 +19,45 @@ class App extends React.Component {
       yourPoints: 0,
       highScore: 0,
       clickedIds: [],
-      cardsArray: imageDetails.allImages
+      cardsArray: imageDetails.allImages,
+      clickResponse:
+        "Choose any pup to begin, each dog gets only one treat per game!"
     };
   }
+
   // this function will update the state in the parent "App"
   handleClick(id) {
+    debugger;
     console.log(this.state.clickedIds);
     console.log(id);
     // can use if else to see if user pressed same one twice
     if (this.state.clickedIds.includes(id)) {
+      this.setState({
+        clickResponse: "Sorry, game over! Only one treat per game!"
+      });
       this.gameOver();
+      return;
     }
-    this.setState({ yourPoints: this.state.yourPoints + 1 });
+
+    this.setState(prevState => ({
+      yourPoints: prevState.yourPoints + 1,
+      clickResponse: "Great job! Try to beat your best score!"
+    }));
+
+    this.setState((prevState, props) => ({
+      counter: prevState.counter + props.increment
+    }));
     // this will pull everything in the array- the clicked pics and add them all into a new array
     this.setState({ clickedIds: [...this.state.clickedIds, id] });
+
+    if (this.state.yourPoints >= this.state.highScore) {
+      this.setState({ highScore: this.state.yourPoints });
+    }
+
     let newDeck = this.shuffleCards(this.state.cardsArray);
     this.setState({ cardsArray: newDeck });
+
+    // this.setState({ clickResponse:clickResponse });
   }
 
   // reset yourPoints to "0" alert user, chose twice, reset clicked id's
@@ -60,6 +83,7 @@ class App extends React.Component {
         <NavBar
           yourPoints={this.state.yourPoints}
           highScore={this.state.highScore}
+          clickResponse={this.state.clickResponse}
         />
         <Jumbotron />
         {/* <GameContainer /> */}
@@ -72,7 +96,7 @@ class App extends React.Component {
                 id={img.id}
                 src={img.image}
                 key={img.id}
-                handleClick={() => this.handleClick()}
+                handleClick={() => this.handleClick(img.id)}
               />
             );
           })}
