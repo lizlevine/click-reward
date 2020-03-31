@@ -38,6 +38,7 @@ class App extends React.Component {
 
     this.setState(prevState => ({
       yourPoints: prevState.yourPoints + 1,
+      highScore: Math.max(prevState.yourPoints + 1,this.state.highScore),
       clickResponse: "Great job! Keep on treating new pups!"
     }));
 
@@ -47,9 +48,9 @@ class App extends React.Component {
     // this will pull everything in the array- the clicked pics and add them all into a new array
     this.setState({ clickedIds: [...this.state.clickedIds, id] });
 
-    if (this.state.yourPoints >= this.state.highScore) {
-      this.setState({ highScore: this.state.yourPoints });
-    }
+    // if (this.state.yourPoints >= this.state.highScore) {
+    //   this.setState({ highScore: this.state.yourPoints });
+    // }
 
     let newDeck = this.shuffleCards(this.state.cardsArray);
     this.setState({ cardsArray: newDeck });
