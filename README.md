@@ -1,5 +1,5 @@
 # CLICK | REWARD
-
+https://lizlevine.github.io/click-reward/
 This fun, interactive memory game begins by prompting the user to select dogs
 to "reward" by clicking. The points accumulate as long as the user does not reward the same dog twice. This is not always easy as upon click the cards shuffle. If the user selects the same dog twice, the game ends and the high score will either remain as is or increment by one.
 
